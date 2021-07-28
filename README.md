@@ -105,7 +105,7 @@ python run_os_adv2.py
 
 ### Test
 ```bash  
-python run_os_ad.py   --mode test --model save_models/divide_1/epoch_1.pth
+python run_os_ad.py   
 ```
 
 
