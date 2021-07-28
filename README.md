@@ -61,6 +61,11 @@ You can download the affordance maps from [Baidu Pan]()
     </em>
 </p>
 
+## Requirements
+  - python 3.7 
+  - pytorch 1.1.0
+  -  opencv
+
 ## Citation
 ```
 @inproceedings{Oneluo,
