@@ -1,6 +1,5 @@
 # OSAD_Net
 ##  One-Shot Affordance Detection
-[[code]()]
 [[paper]()]
 [[supp]()]
 [[dataset]()]
