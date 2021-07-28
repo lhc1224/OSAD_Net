@@ -65,6 +65,55 @@ You can download the affordance maps from [Baidu Pan]()
   - python 3.7 
   - pytorch 1.1.0
   -  opencv
+## Datasets
+You can download the PAD from [Baidu Pan]()()
+
+```bash  
+cd Downloads/
+unzip PAD.zip
+cd OSAD-Net
+mkdir datasets/PAD
+mv Downloads/PAD/divide_1 datasets/PAD/   
+mv Downloads/PAD/divide_2 datasets/PAD/   
+mv Downloads/PAD/divide_3 datasets/PAD/  
+```
+
+You can download the PAD from [Baidu Pan]()()
+
+```bash  
+cd Downloads/
+unzip PADv2.zip
+cd OSAD-Net
+mkdir datasets/PADv2
+mv Downloads/PADv2/divide_1 datasets/PADv2/  
+mv Downloads/PADv2/divide_2 datasets/PADv2/  
+mv Downloads/PADv2/divide_3 datasets/PADv2/   
+```
+
+## Usage
+
+```bash  
+git clone https://github.com/lhc1224/OSAD_Net.git
+cd OSAD-Net
+```
+#### Train
+You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1fFngZWPmRV6C1chUY9vjSg)(egj8),then move it to the `models` folder
+To train the OSAD-Net_ijcai model, run `run_os_ad.py` with the desired model architecture:
+```bash  
+python run_os_ad.py   
+```
+
+To train the OSAD-Net model, run `run_os_adv2.py` with the desired model architecture:
+```bash  
+python run_os_adv2.py   
+```
+
+### Test
+```bash  
+python run_os_ad.py   --mode test --model save_models/divide_1/epoch_1.pth
+```
+
+
 
 ## Citation
 ```
