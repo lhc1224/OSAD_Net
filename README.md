@@ -13,13 +13,13 @@ Affordance detection refers to identifying the potential action possibilities of
 
 ### Dataset(PADv2)
 <p align="center">
-    <img src="./img/dataset_example.png" width="860"/> <br />
+    <img src="./img/dataset_example.png" width="820"/> <br />
     <em> 
     </em>
 </p>
 **The samples images in the PADv2 of this paper.** Our PADv2 has rich annotations such as affordance masks as well as depth information. Thus it provides a solid foundation for the affordance detection task.
 <p align="center">
-    <img src="./img/dataset1.png" width="860"/> <br />
+    <img src="./img/dataset1.png" width="820"/> <br />
     <em> 
     </em>
 </p>
@@ -31,7 +31,7 @@ Affordance detection refers to identifying the potential action possibilities of
 #### Performance on PADv2
 You can download the affordance maps from [Baidu Pan]()
 <p align="center">
-    <img src="./img/PADV2result.png" width="860"/> <br />
+    <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
     </em>
 </p>
@@ -39,7 +39,7 @@ You can download the affordance maps from [Baidu Pan]()
 #### Performance on PAD
 You can download the affordance maps from [Baidu Pan]()
 <p align="center">
-    <img src="./img/PADresult.png" width="860"/> <br />
+    <img src="./img/PADresult.png" width="820"/> <br />
     <em> 
     </em>
 </p>
