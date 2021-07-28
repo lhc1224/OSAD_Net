@@ -10,6 +10,11 @@ Affordance detection refers to identifying the potential action possibilities of
 
 ## Pipeline
 ### OSAD-Net(IJCAI)
+<p align="center">
+    <img src="./img/pipeline1.png" width="820"/> <br />
+    <em> 
+    </em>
+</p>
 ### OSAD-Net
 
 ## Dataset(PADv2)
@@ -18,8 +23,8 @@ Affordance detection refers to identifying the potential action possibilities of
     <em> 
     </em>
 </p>
-
-**The samples images in the PADv2 of this paper.** Our PADv2 has rich annotations such as affordance masks as well as depth information. Thus it provides a solid foundation for the affordance detection task.
+Our One-Shot Affordance Detection (OS-AD) network. OSAD-Net_ijcai consists of three key modules: Purpose Learning Module (PLM), Purpose Transfer Module (PTM), and Collaboration Enhancement Module (CEM). (a) PLM aims to estimate action purpose from the human-object interaction in the support image. (b) PTM transfers the action purpose to the query images via an attention mechanism to enhance the relevant features. (c) CEM captures the intrinsic characteristics between objects having the common affordance to learn a better affordance perceiving ability.
+**The samples images in the PADv2 of this paper.** Our PADv2 has rich annotations such as affordance masks as well as depth information. Thus it provides a solid foundation for the affordance detection task. 
 <p align="center">
     <img src="./img/dataset1.png" width="820"/> <br />
     <em> 
