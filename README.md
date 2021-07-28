@@ -104,8 +104,13 @@ python run_os_adv2.py
 ```
 
 ### Test
+To test the OSAD-Net_ijcai model, run `run_os_ad.py`:
 ```bash  
-python run_os_ad.py   
+python run_os_ad.py  --mode test 
+```
+To test the OSAD-Net model, run `run_os_ad.py`:
+```bash  
+python run_os_adv2.py  --mode test 
 ```
 
 
