@@ -44,23 +44,6 @@ Affordance detection refers to identifying the potential action possibilities of
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 94 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
 
 
-## Experimental Results
-### Performance on PADv2
-You can download the affordance maps from [Baidu Pan]()
-<p align="center">
-    <img src="./img/PADV2result.png" width="820"/> <br />
-    <em> 
-    </em>
-</p>
-
-### Performance on PAD
-You can download the affordance maps from [Baidu Pan]()
-<p align="center">
-    <img src="./img/PADresult.png" width="820"/> <br />
-    <em> 
-    </em>
-</p>
-
 ## Requirements
   - python 3.7 
   - pytorch 1.1.0
@@ -112,6 +95,27 @@ python run_os_adv2.py
 ```bash  
 python run_os_ad.py   --mode test --model save_models/divide_1/epoch_1.pth
 ```
+
+
+
+## Experimental Results
+### Performance on PADv2
+You can download the affordance maps from [Baidu Pan]()
+<p align="center">
+    <img src="./img/PADV2result.png" width="820"/> <br />
+    <em> 
+    </em>
+</p>
+
+### Performance on PAD
+You can download the affordance maps from [Baidu Pan]()
+<p align="center">
+    <img src="./img/PADresult.png" width="820"/> <br />
+    <em> 
+    </em>
+</p>
+
+
 
 
 
