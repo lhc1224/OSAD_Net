@@ -80,10 +80,10 @@ if __name__ == '__main__':
     parser.add_argument('--load_bone', type=str, default='')
     parser.add_argument('--epoch_save', type=int, default=1)  # 2, now x3
     parser.add_argument('--pre_trained', type=str, default=None)
-    parser.add_argument('--image_root',type=str,default='/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/train/images/')
-    parser.add_argument('--mask_root',type=str,default="/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/train/masks/")
-    parser.add_argument('--ref_path',type=str,default="/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/train/refs/")
-    parser.add_argument("--train_lst_path",type=str,default="/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/train/train.lst")
+    parser.add_argument('--image_root',type=str,default='datasets/PAD/divide_1/train/images/')
+    parser.add_argument('--mask_root',type=str,default="datasets/PAD/divide_1/train/masks/")
+    parser.add_argument('--ref_path',type=str,default="datasets/PAD/divide_1/train/refs/")
+    parser.add_argument("--train_lst_path",type=str,default="datasets/PAD/divide_1/train/train.lst")
     parser.add_argument("--save_path",type=str,default="OSAD/save_models/")
     parser.add_argument("--num_GPU",type=int,default=1)
 
@@ -92,10 +92,10 @@ if __name__ == '__main__':
     parser.add_argument("--model_root",type=str,default="OSAD/save_models/")
     parser.add_argument('--image_size', type=str, default=320)
     parser.add_argument('--n_layers', type=int, default=50)
-    parser.add_argument('--test_image_path',type=str,default="/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/test/images")
-    parser.add_argument('--txt_path',type=str,default="/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/test/test_ref.txt")
+    parser.add_argument('--test_image_path',type=str,default="datasets/PAD/divide_1/test/images")
+    parser.add_argument('--txt_path',type=str,default="datasets/PAD/divide_1/test/test_ref.txt")
     parser.add_argument('--save_image_path',type=str,default=None)
-    parser.add_argument("--test_ref_root",type=str,default="/home/lhc/dataset/Co-saliency/co-aff/all_data_4/PAD/divide_1/test/refs/")
+    parser.add_argument("--test_ref_root",type=str,default="datasets/PAD/divide_1/test/refs/")
     # Misc
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'test'])
 
