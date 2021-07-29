@@ -9,6 +9,7 @@ In this repo, we provide the pytorch code for the two papers:
   <a href="#Requirements">:clipboard: Requirements</a> |
   <a href="#Usage">:pencil2: Usage</a> |
   <a href="#Results">:bar_chart: Results</a> |
+  <a href="#Applications">:apple: Applications</a> |
   <a href="#Citation">:mag: Citation</a>
 </p>
 
@@ -120,7 +121,7 @@ In order to evaluate the forecast results, the evaluation code can be obtained v
 
 ## :bar_chart: Experimental Results
 ### Performance on PADv2
-You can download the affordance maps from [[Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing)][[Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf)]
+You can download the affordance maps from [Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing)[Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf)
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
@@ -134,6 +135,9 @@ You can download the affordance maps from [Baidu Pan]()
     <em> 
     </em>
 </p>
+
+
+## :apple: Applications
 
 
 ## :mag: Citation
