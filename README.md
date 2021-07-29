@@ -2,6 +2,7 @@
 In this repo, we provide the pytorch code for the two papers:
 
 <p align="center">
+  [:paperclip: Paper Link](#1) |
   <a href="#Paper Link">:paperclip: Paper Link</a> |
   <a href="#Abstract">:bulb: Abstract</a> |
   <a href="#Method">:book: Method</a> |
@@ -14,7 +15,7 @@ In this repo, we provide the pytorch code for the two papers:
   <a href="#Citation">:mag: Citation</a>
 </p>
 
-## :paperclip: Paper Link
+## <h2 id="1">Paper Link</h2>
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
