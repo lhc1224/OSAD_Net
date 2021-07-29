@@ -1,5 +1,5 @@
 # One-shot Affordance Detection
-In this repo, we provide the code for the two papers, i.e.,
+In this repo, we provide the pytorch code for the two papers:
 
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 
@@ -9,7 +9,6 @@ In this repo, we provide the code for the two papers, i.e.,
 
 ## Abstract
 Affordance detection refers to identifying the potential action possibilities of objects in an image, which is a crucial ability for robot perception and manipulation. To empower robots with this ability in unseen scenarios, we first consider the challenging one-shot affordance detection problem in this paper, i.e., given a support image that depicts the action purpose, all objects in a scene with the common affordance should be detected. To this end, we devise a One-Shot Affordance Detection Network (OSAD-Net) that firstly estimates the human action purpose and then transfers it to help detect the common affordance from all candidate images. Through collaboration learning, OSAD-Net can capture the common characteristics between objects having the same underlying affordance and learn a good adaptation capability for perceiving unseen affordances.  Besides, we build a Purpose-driven Affordance Dataset v2 (PADv2) by collecting and labeling 30k images from 39 affordance and 94 object categories. With complex scenes and rich annotations, our PADv2 can comprehensively understand the affordance of objects and can even be used in other vision tasks, such as scene understanding, action recognition,  robot manipulation, etc. We present a standard one-shot affordance detection benchmark comparing 11 advanced models in several different fields. Experimental results demonstrate the superiority of our model over previous representative ones in terms of both objective metrics and visual quality.
-
 
 ## Table of Contents
   * [Pipeline](#Pipeline)
@@ -29,7 +28,6 @@ Affordance detection refers to identifying the potential action possibilities of
 
 **Our One-Shot Affordance Detection (OS-AD) network.** OSAD-Net_ijcai consists of three key modules: Purpose Learning Module (PLM), Purpose Transfer Module (PTM), and Collaboration Enhancement Module (CEM). (a) PLM aims to estimate action purpose from the human-object interaction in the support image. (b) PTM transfers the action purpose to the query images via an attention mechanism to enhance the relevant features. (c) CEM captures the intrinsic characteristics between objects having the common affordance to learn a better affordance perceiving ability.
 
-
 ### OSAD-Net
 <p align="center">
     <img src="./img/pipeline2.png" width="820"/> <br />
@@ -37,8 +35,6 @@ Affordance detection refers to identifying the potential action possibilities of
     </em>
 </p>
 **The framework of our OSAD-Net.** For our OSAD-Net pipeline, the network first uses a Resnet50 to extract the features of support image and query images. Subsequently, the support feature, the bounding box of the person and object, and the pose of the person are fed together into the action purpose learning (APL) module to obtain the human action purpose features. And then send the human action purpose features and query images together to the mixture purpose transfer (MPT) to transfer the human action purpose to query images and activate the object region belonging to the affordance in the query images. Then, the output of the MPT is fed into a densely collaborative enhancement (DCE) module to learn the commonality among objects of the same affordance and suppress the irrelevant background regions using the cooperative strategy, and finally feed into the decoder to obtain the final detection results.
-
-
 
 ## Dataset
 <p align="center">
@@ -55,8 +51,6 @@ Affordance detection refers to identifying the potential action possibilities of
 </p>
 
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 94 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
-
-
 
 ## Requirements
   - python 3.7 
@@ -116,7 +110,6 @@ python run_os_adv2.py  --mode test
 ```
 ## Evaluation
 In order to evaluate the forecast results, the evaluation code can be obtained via the following [link](https://github.com/lhc1224/OSAD_Net/tree/main/PyMetrics).
-
 
 ## Experimental Results
 ### Performance on PADv2
