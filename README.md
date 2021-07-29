@@ -149,7 +149,7 @@ You can download the affordance maps from [[Baidu Pan](https://pan.baidu.com/s/1
 ## :apple: Applications
 
 <p align="center">
-    <img src="./img/Potential_Applications.png" width="620"/> <br />
+    <img src="./img/Potential_Applications.png" width="650"/> <br />
     <em> 
     </em>
 </p>
