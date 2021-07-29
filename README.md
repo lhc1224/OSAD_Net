@@ -2,7 +2,7 @@
 
 PyTorch implementation of our one-shot affordance detection models. This repository contains PyTorch evaluation code, training code and pretrained models.
 
-### 📋 Table of content
+## 📋 Table of content
  1. [📎 Paper Link](#1)
  2. [💡 Abstract](#2)
  3. [📖 Method](#3)
