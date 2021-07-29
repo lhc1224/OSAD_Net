@@ -28,7 +28,7 @@ Affordance detection refers to identifying the potential action possibilities of
 ## :book: Pipeline
 ### OSAD-Net (IJCAI2021)
 <p align="center">
-    <img src="./img/pipeline12.png" width="500"/> <br />
+    <img src="./img/pipeline12.png" width="650"/> <br />
     <em> 
     </em>
 </p>
