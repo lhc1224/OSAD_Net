@@ -136,15 +136,21 @@ You can download the affordance maps from [Baidu Pan]()
 </p>
 
 
-
-
-
 ## Citation
 ```
 @inproceedings{Oneluo,
   title={One-Shot Affordance Detection},
   author={Hongchen Luo and Wei Zhai and Jing Zhang and Yang Cao and Dacheng Tao},
   booktitle={IJCAI},
+  year={2021}
+}
+```
+
+```
+@article{luo2021one,
+  title={One-Shot Affordance Detection},
+  author={Luo, Hongchen and Zhai, Wei and Zhang, Jing and Cao, Yang and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2106.14747},
   year={2021}
 }
 ```
