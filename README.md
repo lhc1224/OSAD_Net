@@ -112,7 +112,8 @@ To test the OSAD-Net model, run `run_os_ad.py`:
 ```bash  
 python run_os_adv2.py  --mode test 
 ```
-
+## Evaluation
+In order to evaluate the forecast results, the evaluation code can be obtained via the following [link](https://github.com/lhc1224/OSAD_Net/tree/main/PyMetrics)
 
 
 ## Experimental Results
