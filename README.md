@@ -117,7 +117,7 @@ python run_os_adv2.py  --mode test
 
 ## Experimental Results
 ### Performance on PADv2
-You can download the affordance maps from [Baidu Pan]()
+You can download the affordance maps from [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g)(hwtf)
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
