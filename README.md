@@ -1,3 +1,7 @@
+<h1 align="left">DUT: Learning Video Stabilization by Simply Watching Unstable Videos <a href="https://arxiv.org/pdf/2011.14574.pdf"><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a> <a href="https://colab.research.google.com/drive/1i-cK-6uFKbWRjxF26uxUqHHSEvq1Ln8h?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> </h1> 
+
 # One-shot Affordance Detection
 In this repo, we provide the pytorch code for the two papers:
 
