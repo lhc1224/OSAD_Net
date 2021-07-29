@@ -79,7 +79,7 @@ Affordance detection refers to identifying the potential action possibilities of
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 94 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
 
 ### Download PAD <a name="41"></a> 
-- You can download the PAD from [ [Google Driver](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ].
+- You can download the PAD from [ [Google Drive](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ].
 
 ```bash  
 cd Downloads/
@@ -140,7 +140,7 @@ In order to evaluate the forecast results, the evaluation code can be obtained v
 
 ## 📊 Experimental Results <a name="7"></a> 
 ### Performance on PADv2 <a name="71"></a>
-You can download the affordance maps from [ [Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf) ]
+You can download the affordance maps from [ [Google Drive](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf) ]
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
