@@ -138,7 +138,7 @@ You can download the affordance maps from [ [Google Driver](https://drive.google
 </p>
 
 ### Performance on PAD
-You can download the affordance maps from [Baidu Pan]()
+You can download the affordance maps from [[Baidu Pan](https://pan.baidu.com/s/1vOSV2hhSoZWTbnjQMm7nFA)(hrlj)]
 <p align="center">
     <img src="./img/PADresult.png" width="820"/> <br />
     <em> 
