@@ -141,6 +141,7 @@ You can download the affordance maps from [Baidu Pan]()
 ## :apple: Applications
 
 ## :envelope: Statement
+This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
 
 ## :mag: Citation
 
