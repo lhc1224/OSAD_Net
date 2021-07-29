@@ -1,5 +1,10 @@
 # One-shot Affordance Detection
-In this repo, we provide the pytorch code for the two papers:
+
+[![python-image]][python-url]
+[![pytorch-image]][pytorch-url]
+[![lic-image]][lic-url]
+
+PyTorch implementation of our one-shot affordance detection models.
 
 ### 📋 Table of content
  1. [📎 Paper Link](#1)
