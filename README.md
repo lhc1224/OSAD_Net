@@ -18,7 +18,7 @@ In this repo, we provide the pytorch code for the two papers:
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
-* One-Shot Affordance Detection (Journal Version) ([link]())
+* One-Shot Affordance Detection (Extended Version) ([link]())
 > Authors:
 > Wei Zhai*, Hongchen Luo*, Jing Zhang, Yang Cao, Dacheng Tao
 
@@ -43,7 +43,7 @@ Affordance detection refers to identifying the potential action possibilities of
 
 **Our One-Shot Affordance Detection (OS-AD) network.** OSAD-Net_ijcai consists of three key modules: Purpose Learning Module (PLM), Purpose Transfer Module (PTM), and Collaboration Enhancement Module (CEM). (a) PLM aims to estimate action purpose from the human-object interaction in the support image. (b) PTM transfers the action purpose to the query images via an attention mechanism to enhance the relevant features. (c) CEM captures the intrinsic characteristics between objects having the common affordance to learn a better affordance perceiving ability.
 
-### OSAD-Net (Journal Version)
+### OSAD-Net (Extended Version)
 <p align="center">
     <img src="./img/pipeline2.png" width="500"/> <br />
     <em> 
