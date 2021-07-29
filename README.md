@@ -142,7 +142,7 @@ In order to evaluate the forecast results, the evaluation code can be obtained v
 ### Performance on PADv2 <a name="71"></a>
 You can download the affordance maps from [ [Google Drive](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf) ]
 <p align="center">
-    <img src="./img/PADV2result2.png" width="750"/> <br />
+    <img src="./img/PADV2result2.png" width="800"/> <br />
     <em> 
     </em>
 </p>
