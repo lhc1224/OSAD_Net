@@ -60,7 +60,7 @@ Affordance detection refers to identifying the potential action possibilities of
   - python 3.7 
   - pytorch 1.1.0
   -  opencv
-## Datasets
+## Prepare Data
 You can download the PAD from [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ)(z40m)
 
 ```bash  
