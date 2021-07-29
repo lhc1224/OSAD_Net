@@ -9,7 +9,8 @@ In this repo, we provide the pytorch code for the two papers:
   <a href="#Requirements">:clipboard: Requirements</a> |
   <a href="#Usage">:pencil2: Usage</a> |
   <a href="#Results">:bar_chart: Results</a> |
-  <a href="#Applications">:apple: Applications</a> |
+  <a href="#Potential Applications">:apple: Potential Applications</a> |
+  <a href="#Statement">:envelope: Statement</a> |
   <a href="#Citation">:mag: Citation</a>
 </p>
 
@@ -139,6 +140,7 @@ You can download the affordance maps from [Baidu Pan]()
 
 ## :apple: Applications
 
+## :envelope: Statement
 
 ## :mag: Citation
 
