@@ -20,7 +20,7 @@ Affordance detection refers to identifying the potential action possibilities of
   * [Citation](#Citation)
 
 ## Pipeline
-### OSAD-Net(IJCAI)
+### OSAD-Net (IJCAI version)
 <p align="center">
     <img src="./img/pipeline1.png" width="820"/> <br />
     <em> 
@@ -63,7 +63,7 @@ Affordance detection refers to identifying the potential action possibilities of
   - pytorch 1.1.0
   -  opencv
 ## Prepare Data
-You can download the PAD from [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ)(z40m)
+You can download the PAD from [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m)
 
 ```bash  
 cd Downloads/
@@ -75,7 +75,7 @@ mv Downloads/PAD/divide_2 datasets/PAD/
 mv Downloads/PAD/divide_3 datasets/PAD/  
 ```
 
-You can download the PADv2 from [Baidu Pan](https://pan.baidu.com/s/1K_6I3JjamkEcdh19dXOYVg)(gz61)
+You can download the PADv2 from [Baidu Pan](https://pan.baidu.com/s/1K_6I3JjamkEcdh19dXOYVg) (gz61)
 
 ```bash  
 cd Downloads/
@@ -94,7 +94,7 @@ git clone https://github.com/lhc1224/OSAD_Net.git
 cd OSAD-Net
 ```
 #### Train
-You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ)(xjk5),then move it to the `models` folder
+You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ) (xjk5),then move it to the `models` folder
 To train the OSAD-Net_ijcai model, run `run_os_ad.py` with the desired model architecture:
 ```bash  
 python run_os_ad.py   
@@ -120,7 +120,7 @@ In order to evaluate the forecast results, the evaluation code can be obtained v
 
 ## Experimental Results
 ### Performance on PADv2
-You can download the affordance maps from [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g)(hwtf)
+You can download the affordance maps from [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf)
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
