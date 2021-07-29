@@ -92,7 +92,7 @@ git clone https://github.com/lhc1224/OSAD_Net.git
 cd OSAD-Net
 ```
 #### Train
-You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1fFngZWPmRV6C1chUY9vjSg)(egj8),then move it to the `models` folder
+You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ)(xjk5),then move it to the `models` folder
 To train the OSAD-Net_ijcai model, run `run_os_ad.py` with the desired model architecture:
 ```bash  
 python run_os_ad.py   
