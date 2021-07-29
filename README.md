@@ -4,7 +4,7 @@ In this repo, we provide the pytorch code for the two papers:
 <p align="center">
   <a href="#:link: Paper Link">:paperclip: Paper Link</a> |
   <a href="#Abstract">:bulb: Abstract</a> |
-  <a href="#Pipeline">:book: Pipeline</a> |
+  <a href="#Method">:book: Method</a> |
   <a href="#Dataset">:open_file_folder: Dataset</a> |
   <a href="#Requirements">:clipboard: Requirements</a> |
   <a href="#Usage">:pencil2: Usage</a> |
@@ -33,7 +33,7 @@ Affordance detection refers to identifying the potential action possibilities of
 
 **Illustration of perceiving affordance.** Given a support image that depicts the action purpose, all objects in ascene with the common affordance could be detected.
 
-## :book: Pipeline
+## :book: Method
 ### OSAD-Net (IJCAI2021)
 <p align="center">
     <img src="./img/pipeline12.png" width="650"/> <br />
