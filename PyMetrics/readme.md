@@ -16,18 +16,12 @@ Your improvements and suggestions are welcome.
 pip install -r requirements.txt
 ```
 
-NOTE: `-nc`: If the file 'metrics.py' already exists, it cannot be retrieved.
 
-### Install it as a python package.
+### Evaluation
 
 ```shell script
-pip install pysodmetrics
+python code/test_metrics_3.py
 ```
-
-### Examples
-
-* <./examples/test_metrics.py>
-* <./examples/metric_recorder.py>
 
 ## Thanks
 
