@@ -1,9 +1,17 @@
-<h1 align="left">DUT: Learning Video Stabilization by Simply Watching Unstable Videos <a href="https://arxiv.org/pdf/2011.14574.pdf"><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a> <a href="https://colab.research.google.com/drive/1i-cK-6uFKbWRjxF26uxUqHHSEvq1Ln8h?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+<h1 align="left">DUT: Learning Video Stabilization by Simply Watching Unstable Videos <a href="https://arxiv.org/pdf/2011.14574.pdf"><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a>
 </a> </h1> 
 
 # One-shot Affordance Detection
 In this repo, we provide the pytorch code for the two papers:
+
+<p align="center">
+  <a href="#Pipeline">Pipeline</a> |
+  <a href="#Dataset">Dataset</a> |
+  <a href="#Requirements">Requirements</a> |
+  <a href="#Usage">Usage</a> |
+  <a href="#Results">Results</a> |
+  <a href="#Citation">Citation</a>
+</p>
 
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 
@@ -13,14 +21,6 @@ In this repo, we provide the pytorch code for the two papers:
 
 ## Abstract
 Affordance detection refers to identifying the potential action possibilities of objects in an image, which is a crucial ability for robot perception and manipulation. To empower robots with this ability in unseen scenarios, we first consider the challenging one-shot affordance detection problem in this paper, i.e., given a support image that depicts the action purpose, all objects in a scene with the common affordance should be detected. To this end, we devise a One-Shot Affordance Detection Network (OSAD-Net) that firstly estimates the human action purpose and then transfers it to help detect the common affordance from all candidate images. Through collaboration learning, OSAD-Net can capture the common characteristics between objects having the same underlying affordance and learn a good adaptation capability for perceiving unseen affordances.  Besides, we build a Purpose-driven Affordance Dataset v2 (PADv2) by collecting and labeling 30k images from 39 affordance and 94 object categories. With complex scenes and rich annotations, our PADv2 can comprehensively understand the affordance of objects and can even be used in other vision tasks, such as scene understanding, action recognition,  robot manipulation, etc. We present a standard one-shot affordance detection benchmark comparing 11 advanced models in several different fields. Experimental results demonstrate the superiority of our model over previous representative ones in terms of both objective metrics and visual quality.
-
-## Table of Contents
-  * [Pipeline](#Pipeline)
-  * [Dataset](#Dataset)
-  * [Requirements](#Requirements)
-  * [Usage](#Usage)
-  * [Results](#Results)
-  * [Citation](#Citation)
 
 ## Pipeline
 ### OSAD-Net (IJCAI version)
