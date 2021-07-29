@@ -9,11 +9,7 @@ Your improvements and suggestions are welcome.
 
 ## Usage
 
-### Download the file as your script
-
 ```shell script
-git clone https://github.com/lhc1224/OSAD_Net.git
-# maybe, you need:
 pip install -r requirements.txt
 ```
 
