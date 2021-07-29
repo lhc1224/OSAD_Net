@@ -2,7 +2,7 @@
 In this repo, we provide the pytorch code for the two papers:
 
 <p align="center">
-  <a href="#Paper Link">:paperclip: Paper Link</a> |
+  <a href="#Paper Link">Paper Link</a> |
   <a href="#Abstract">:bulb: Abstract</a> |
   <a href="#Method">:book: Method</a> |
   <a href="#Dataset">:open_file_folder: Dataset</a> |
