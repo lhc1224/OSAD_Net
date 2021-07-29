@@ -70,7 +70,7 @@ Affordance detection refers to identifying the potential action possibilities of
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 94 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
 
 ### Download Data
-- You can download the PAD from [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m)
+- You can download the PAD from [ [Google Driver](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ].
 
 ```bash  
 cd Downloads/
