@@ -3,7 +3,7 @@ In this repo, we provide the pytorch code for the two papers:
 
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 
-* One-Shot Affordance Detection ([link]())
+* One-Shot Affordance Detection (Journal Version) ([link]())
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
 
