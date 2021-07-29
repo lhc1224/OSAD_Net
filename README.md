@@ -24,7 +24,7 @@ In this repo, we provide the pytorch code for the two papers:
 Affordance detection refers to identifying the potential action possibilities of objects in an image, which is a crucial ability for robot perception and manipulation. To empower robots with this ability in unseen scenarios, we first consider the challenging one-shot affordance detection problem in this paper, i.e., given a support image that depicts the action purpose, all objects in a scene with the common affordance should be detected. To this end, we devise a One-Shot Affordance Detection Network (OSAD-Net) that firstly estimates the human action purpose and then transfers it to help detect the common affordance from all candidate images. Through collaboration learning, OSAD-Net can capture the common characteristics between objects having the same underlying affordance and learn a good adaptation capability for perceiving unseen affordances.  Besides, we build a Purpose-driven Affordance Dataset v2 (PADv2) by collecting and labeling 30k images from 39 affordance and 94 object categories. With complex scenes and rich annotations, our PADv2 can comprehensively understand the affordance of objects and can even be used in other vision tasks, such as scene understanding, action recognition,  robot manipulation, etc. We present a standard one-shot affordance detection benchmark comparing 11 advanced models in several different fields. Experimental results demonstrate the superiority of our model over previous representative ones in terms of both objective metrics and visual quality.
 
 ## :book: Pipeline
-### 1. OSAD-Net (IJCAI2021)
+### OSAD-Net (IJCAI2021)
 <p align="center">
     <img src="./img/pipeline1.png" width="500"/> <br />
     <em> 
@@ -33,7 +33,7 @@ Affordance detection refers to identifying the potential action possibilities of
 
 **Our One-Shot Affordance Detection (OS-AD) network.** OSAD-Net_ijcai consists of three key modules: Purpose Learning Module (PLM), Purpose Transfer Module (PTM), and Collaboration Enhancement Module (CEM). (a) PLM aims to estimate action purpose from the human-object interaction in the support image. (b) PTM transfers the action purpose to the query images via an attention mechanism to enhance the relevant features. (c) CEM captures the intrinsic characteristics between objects having the common affordance to learn a better affordance perceiving ability.
 
-### 2. OSAD-Net (Journal Version)
+### OSAD-Net (Journal Version)
 <p align="center">
     <img src="./img/pipeline2.png" width="500"/> <br />
     <em> 
@@ -90,7 +90,6 @@ mv Downloads/PADv2_part1/divide_3 datasets/PADv2_part1/
 
 ## :pencil2: Usage
 
-To get our project:
 ```bash  
 git clone https://github.com/lhc1224/OSAD_Net.git
 cd OSAD-Net
@@ -121,7 +120,7 @@ In order to evaluate the forecast results, the evaluation code can be obtained v
 
 ## :bar_chart: Experimental Results
 ### Performance on PADv2
-You can download the affordance maps from [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf)
+You can download the affordance maps from [Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing)[Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf)
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
