@@ -115,7 +115,7 @@ git clone https://github.com/lhc1224/OSAD_Net.git
 cd OSAD-Net
 ```
 ### Train <a name="61"></a> 
-You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ) (xjk5),then move it to the `models` folder
+You can download the pretrained model from [ [Google Drive](https://drive.google.com/file) | [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ) (xjk5) ],then move it to the `models` folder
 To train the OSAD-Net_ijcai model, run `run_os_ad.py` with the desired model architecture:
 ```bash  
 python run_os_ad.py   
@@ -136,21 +136,21 @@ To test the OSAD-Net model, run `run_os_ad.py`:
 python run_os_adv2.py  --mode test 
 ```
 ### Evaluation <a name="63"></a> 
-In order to evaluate the forecast results, the evaluation code can be obtained via the following [link](https://github.com/lhc1224/OSAD_Net/tree/main/PyMetrics).
+In order to evaluate the forecast results, the evaluation code can be obtained via the following [Evaluation Tools](https://github.com/lhc1224/OSAD_Net/tree/main/PyMetrics).
 
 ## 📊 Experimental Results <a name="7"></a> 
 ### Performance on PADv2 <a name="71"></a>
 You can download the affordance maps from [ [Google Drive](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf) ]
 <p align="center">
-    <img src="./img/PADV2result.png" width="820"/> <br />
+    <img src="./img/PADV2result.png" width="750"/> <br />
     <em> 
     </em>
 </p>
 
 ### Performance on PAD <a name="72"></a>
-You can download the affordance maps from [ [Baidu Pan](https://pan.baidu.com/s/1vOSV2hhSoZWTbnjQMm7nFA)(hrlj) ]
+You can download the affordance maps from [ [Google Drive](https://drive.google.com/file) | [Baidu Pan](https://pan.baidu.com/s/1vOSV2hhSoZWTbnjQMm7nFA)(hrlj) ]
 <p align="center">
-    <img src="./img/PADresult.png" width="820"/> <br />
+    <img src="./img/PADresult.png" width="750"/> <br />
     <em> 
     </em>
 </p>
