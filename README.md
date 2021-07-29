@@ -29,6 +29,7 @@ Affordance detection refers to identifying the potential action possibilities of
     <em> 
     </em>
 </p>
+
 **Our One-Shot Affordance Detection (OS-AD) network.** OSAD-Net_ijcai consists of three key modules: Purpose Learning Module (PLM), Purpose Transfer Module (PTM), and Collaboration Enhancement Module (CEM). (a) PLM aims to estimate action purpose from the human-object interaction in the support image. (b) PTM transfers the action purpose to the query images via an attention mechanism to enhance the relevant features. (c) CEM captures the intrinsic characteristics between objects having the common affordance to learn a better affordance perceiving ability.
 
 ### OSAD-Net (Journal Version)
@@ -37,6 +38,7 @@ Affordance detection refers to identifying the potential action possibilities of
     <em> 
     </em>
 </p>
+
 **The framework of our OSAD-Net.** For our OSAD-Net pipeline, the network first uses a Resnet50 to extract the features of support image and query images. Subsequently, the support feature, the bounding box of the person and object, and the pose of the person are fed together into the action purpose learning (APL) module to obtain the human action purpose features. And then send the human action purpose features and query images together to the mixture purpose transfer (MPT) to transfer the human action purpose to query images and activate the object region belonging to the affordance in the query images. Then, the output of the MPT is fed into a densely collaborative enhancement (DCE) module to learn the commonality among objects of the same affordance and suppress the irrelevant background regions using the cooperative strategy, and finally feed into the decoder to obtain the final detection results.
 
 ## :open_file_folder: Dataset
@@ -45,7 +47,9 @@ Affordance detection refers to identifying the potential action possibilities of
     <em> 
     </em>
 </p>
+
 **The samples images in the PADv2 of this paper.** Our PADv2 has rich annotations such as affordance masks as well as depth information. Thus it provides a solid foundation for the affordance detection task. 
+
 <p align="center">
     <img src="./img/dataset1.png" width="720"/> <br />
     <em> 
@@ -54,12 +58,8 @@ Affordance detection refers to identifying the potential action possibilities of
 
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 94 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
 
-## :clipboard: Requirements
-  - python 3.7 
-  - pytorch 1.1.0
-  - opencv
-## Prepare Data
-You can download the PAD from [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m)
+### Download Data
+- You can download the PAD from [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m)
 
 ```bash  
 cd Downloads/
@@ -71,8 +71,7 @@ mv Downloads/PAD/divide_2 datasets/PAD/
 mv Downloads/PAD/divide_3 datasets/PAD/  
 ```
 
-You can download the PADv2 from [Baidu Pan](https://pan.baidu.com/s/1K_6I3JjamkEcdh19dXOYVg) (gz61)
-
+- You can download the PADv2 from [Baidu Pan](https://pan.baidu.com/s/1K_6I3JjamkEcdh19dXOYVg) (gz61)
 ```bash  
 cd Downloads/
 unzip PADv2_part1.zip
@@ -82,6 +81,11 @@ mv Downloads/PADv2_part1/divide_1 datasets/PADv2_part1/
 mv Downloads/PADv2_part1/divide_2 datasets/PADv2_part1/  
 mv Downloads/PADv2_part1/divide_3 datasets/PADv2_part1/   
 ```
+
+## :clipboard: Requirements
+  - python 3.7 
+  - pytorch 1.1.0
+  - opencv
 
 ## :pencil2: Usage
 
@@ -110,7 +114,7 @@ To test the OSAD-Net model, run `run_os_ad.py`:
 ```bash  
 python run_os_adv2.py  --mode test 
 ```
-## Evaluation
+### Evaluation
 In order to evaluate the forecast results, the evaluation code can be obtained via the following [link](https://github.com/lhc1224/OSAD_Net/tree/main/PyMetrics).
 
 ## :bar_chart: Experimental Results
@@ -132,6 +136,7 @@ You can download the affordance maps from [Baidu Pan]()
 
 
 ## :bulb: Citation
+
 ```
 @inproceedings{Oneluo,
   title={One-Shot Affordance Detection},
