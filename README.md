@@ -1,10 +1,8 @@
-<h1 align="left">DUT: Learning Video Stabilization by Simply Watching Unstable Videos <a href="https://arxiv.org/pdf/2011.14574.pdf"><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a>
-</a> </h1> 
-
 # One-shot Affordance Detection
 In this repo, we provide the pytorch code for the two papers:
 
 <p align="center">
+  <a href="#Link">Link</a> |
   <a href="#Pipeline">Pipeline</a> |
   <a href="#Dataset">Dataset</a> |
   <a href="#Requirements">Requirements</a> |
@@ -13,6 +11,7 @@ In this repo, we provide the pytorch code for the two papers:
   <a href="#Citation">Citation</a>
 </p>
 
+## Link
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 
 * One-Shot Affordance Detection (Journal Version) ([link]())
