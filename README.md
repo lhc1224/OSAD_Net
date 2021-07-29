@@ -2,7 +2,7 @@
 In this repo, we provide the pytorch code for the two papers:
 
 <p align="center">
-  <span id = "link">:link: Paper Link</span> |
+  <span id ="link">:link: Paper Link</span> |
   <a href="##:link: Paper Link">:link: Paper Link</a> |
   <a href="##Abstract">:bulb: Abstract</a> |
   <a href="#Pipeline">:book: Pipeline</a> |
@@ -150,7 +150,7 @@ You can download the affordance maps from [[Baidu Pan](https://pan.baidu.com/s/1
 ## :apple: Applications
 
 <p align="center">
-    <img src="./img/Potential_Applications.png" width="700"/> <br />
+    <img src="./img/Potential_Applications.png" width="650"/> <br />
     <em> 
     </em>
 </p>
