@@ -94,7 +94,7 @@ mv Downloads/PADv2_part1/divide_3 datasets/PADv2_part1/
 git clone https://github.com/lhc1224/OSAD_Net.git
 cd OSAD-Net
 ```
-#### Train
+### Train
 You can download the pretrained model from [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ) (xjk5),then move it to the `models` folder
 To train the OSAD-Net_ijcai model, run `run_os_ad.py` with the desired model architecture:
 ```bash  
