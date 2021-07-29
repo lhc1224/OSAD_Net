@@ -77,12 +77,12 @@ You can download the PAD from [Baidu Pan]()()
 
 ```bash  
 cd Downloads/
-unzip PADv2.zip
+unzip PADv2_part1.zip
 cd OSAD-Net
-mkdir datasets/PADv2
-mv Downloads/PADv2/divide_1 datasets/PADv2/  
-mv Downloads/PADv2/divide_2 datasets/PADv2/  
-mv Downloads/PADv2/divide_3 datasets/PADv2/   
+mkdir datasets/PADv2_part1
+mv Downloads/PADv2_part1/divide_1 datasets/PADv2_part1/  
+mv Downloads/PADv2_part1/divide_2 datasets/PADv2_part1/  
+mv Downloads/PADv2_part1/divide_3 datasets/PADv2_part1/   
 ```
 
 ## Usage
