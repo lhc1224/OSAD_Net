@@ -122,7 +122,7 @@ In order to evaluate the forecast results, the evaluation code can be obtained v
 
 ## :bar_chart: Experimental Results
 ### Performance on PADv2
-You can download the affordance maps from [Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing)[Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf)
+You can download the affordance maps from [ [Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf) ]
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
     <em> 
