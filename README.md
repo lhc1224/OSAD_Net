@@ -131,7 +131,7 @@ To test the OSAD-Net_ijcai model, run `run_os_ad.py`:
 ```bash  
 python run_os_ad.py  --mode test 
 ```
-To test the OSAD-Net model, run `run_os_ad.py`:
+To test the OSAD-Net model, run `run_os_ad.py`, you can download the trained models from [ [Google Drive](https://drive.google.com/file/d/1BLaGwXJHOg3sGFGwqKCl0LA8cSsfk7RS/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1WIBPtieqIRnpSb4BxAmC3A)(611r)  ]
 ```bash  
 python run_os_adv2.py  --mode test 
 ```
