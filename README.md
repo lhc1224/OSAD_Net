@@ -37,7 +37,7 @@ Affordance detection refers to identifying the potential action possibilities of
 
 ### OSAD-Net (Journal Version)
 <p align="center">
-    <img src="./img/pipeline2.png" width="500"/> <br />
+    <img src="./img/pipeline22.png" width="500"/> <br />
     <em> 
     </em>
 </p>
