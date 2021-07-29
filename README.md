@@ -16,9 +16,11 @@ In this repo, we provide the pytorch code for the two papers:
     2. [Test](#62)
     3. [Evaluation](#63)
  8. [📊 Experimental Results](#7)
- 9. [🍎 Applications](#8)
- 10. [✉️ Statement](#9)
- 11. [🔍 Citation](#10)
+    1. [Performance on PADv2](#71)
+    2. [Performance on PAD](#72)
+ 10. [🍎 Applications](#8)
+ 11. [✉️ Statement](#9)
+ 12. [🔍 Citation](#10)
 
 ## 📎 Paper Link <a name="1"></a> 
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
@@ -136,7 +138,7 @@ python run_os_adv2.py  --mode test
 In order to evaluate the forecast results, the evaluation code can be obtained via the following [link](https://github.com/lhc1224/OSAD_Net/tree/main/PyMetrics).
 
 ## 📊 Experimental Results <a name="7"></a> 
-### Performance on PADv2
+### Performance on PADv2 <a name="71"></a>
 You can download the affordance maps from [ [Google Driver](https://drive.google.com/file/d/1GHNd3nq5c8S8xWmxiIlq-MZUwOnxo__N/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1af_WJo30m1PO1JOI9S1k_g) (hwtf) ]
 <p align="center">
     <img src="./img/PADV2result.png" width="820"/> <br />
@@ -144,14 +146,13 @@ You can download the affordance maps from [ [Google Driver](https://drive.google
     </em>
 </p>
 
-### Performance on PAD
+### Performance on PAD <a name="72"></a>
 You can download the affordance maps from [[Baidu Pan](https://pan.baidu.com/s/1vOSV2hhSoZWTbnjQMm7nFA)(hrlj)]
 <p align="center">
     <img src="./img/PADresult.png" width="820"/> <br />
     <em> 
     </em>
 </p>
-
 
 ## 🍎 Applications <a name="8"></a> 
 
