@@ -23,7 +23,7 @@ PyTorch implementation of our one-shot affordance detection models. This reposit
  8. [📊 Experimental Results](#7)
     1. [Performance on PADv2](#71)
     2. [Performance on PAD](#72)
- 10. [🍎 Applications](#8)
+ 10. [🍎 Potential Applications](#8)
  11. [✉️ Statement](#9)
  12. [🔍 Citation](#10)
 
@@ -159,7 +159,7 @@ You can download the affordance maps from [[Baidu Pan](https://pan.baidu.com/s/1
     </em>
 </p>
 
-## 🍎 Applications <a name="8"></a> 
+## 🍎 Potential Applications <a name="8"></a> 
 
 <p align="center">
     <img src="./img/Potential_Applications.png" width="650"/> <br />
