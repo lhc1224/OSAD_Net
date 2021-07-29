@@ -2,7 +2,7 @@
 In this repo, we provide the pytorch code for the two papers:
 
 <p align="center">
-  <a href="#Paper-Link">:link: Paper Link</a> |
+  <a href="#:link:-Paper-Link">:link: Paper Link</a> |
   <a href="#Abstract">:bulb: Abstract</a> |
   <a href="#Pipeline">:book: Pipeline</a> |
   <a href="#Dataset">:open_file_folder: Dataset</a> |
@@ -28,7 +28,7 @@ Affordance detection refers to identifying the potential action possibilities of
 ## :book: Pipeline
 ### OSAD-Net (IJCAI2021)
 <p align="center">
-    <img src="./img/pipeline12.png" width="600"/> <br />
+    <img src="./img/pipeline12.png" width="500"/> <br />
     <em> 
     </em>
 </p>
