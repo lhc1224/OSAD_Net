@@ -25,6 +25,14 @@ In this repo, we provide the pytorch code for the two papers:
 ## :bulb: Abstract
 Affordance detection refers to identifying the potential action possibilities of objects in an image, which is a crucial ability for robot perception and manipulation. To empower robots with this ability in unseen scenarios, we first consider the challenging one-shot affordance detection problem in this paper, i.e., given a support image that depicts the action purpose, all objects in a scene with the common affordance should be detected. To this end, we devise a One-Shot Affordance Detection Network (OSAD-Net) that firstly estimates the human action purpose and then transfers it to help detect the common affordance from all candidate images. Through collaboration learning, OSAD-Net can capture the common characteristics between objects having the same underlying affordance and learn a good adaptation capability for perceiving unseen affordances.  Besides, we build a Purpose-driven Affordance Dataset v2 (PADv2) by collecting and labeling 30k images from 39 affordance and 94 object categories. With complex scenes and rich annotations, our PADv2 can comprehensively understand the affordance of objects and can even be used in other vision tasks, such as scene understanding, action recognition,  robot manipulation, etc. We present a standard one-shot affordance detection benchmark comparing 11 advanced models in several different fields. Experimental results demonstrate the superiority of our model over previous representative ones in terms of both objective metrics and visual quality.
 
+<p align="center">
+    <img src="./img/fig1.png" width="650"/> <br />
+    <em> 
+    </em>
+</p>
+
+**Illustration of perceiving affordance.** Given a support image that depicts the action purpose, all objects in ascene with the common affordance could be detected.
+
 ## :book: Pipeline
 ### OSAD-Net (IJCAI2021)
 <p align="center">
