@@ -1,13 +1,13 @@
-# One-shot Affordance Detection
+# :paperclip: One-shot Affordance Detection
 In this repo, we provide the pytorch code for the two papers:
 
 <p align="center">
   <a href="#Paper-Link">:link: Paper Link</a> |
   <a href="#Pipeline">Pipeline</a> |
   <a href="#Dataset">:open_file_folder: Dataset</a> |
-  <a href="#Requirements">Requirements</a> |
+  <a href="#Requirements">:clipboard: Requirements</a> |
   <a href="#Usage">Usage</a> |
-  <a href="#Results">Results</a> |
+  <a href="#Results">:bar_chart: Results</a> |
   <a href="#Citation">:bulb: Citation</a>
 </p>
 
