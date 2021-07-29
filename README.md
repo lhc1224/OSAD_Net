@@ -26,7 +26,7 @@ In this repo, we provide the pytorch code for the two papers:
 Affordance detection refers to identifying the potential action possibilities of objects in an image, which is a crucial ability for robot perception and manipulation. To empower robots with this ability in unseen scenarios, we first consider the challenging one-shot affordance detection problem in this paper, i.e., given a support image that depicts the action purpose, all objects in a scene with the common affordance should be detected. To this end, we devise a One-Shot Affordance Detection Network (OSAD-Net) that firstly estimates the human action purpose and then transfers it to help detect the common affordance from all candidate images. Through collaboration learning, OSAD-Net can capture the common characteristics between objects having the same underlying affordance and learn a good adaptation capability for perceiving unseen affordances.  Besides, we build a Purpose-driven Affordance Dataset v2 (PADv2) by collecting and labeling 30k images from 39 affordance and 94 object categories. With complex scenes and rich annotations, our PADv2 can comprehensively understand the affordance of objects and can even be used in other vision tasks, such as scene understanding, action recognition,  robot manipulation, etc. We present a standard one-shot affordance detection benchmark comparing 11 advanced models in several different fields. Experimental results demonstrate the superiority of our model over previous representative ones in terms of both objective metrics and visual quality.
 
 <p align="center">
-    <img src="./img/fig1.png" width="400"/> <br />
+    <img src="./img/fig1.png" width="650"/> <br />
     <em> 
     </em>
 </p>
@@ -36,7 +36,7 @@ Affordance detection refers to identifying the potential action possibilities of
 ## :book: Pipeline
 ### OSAD-Net (IJCAI2021)
 <p align="center">
-    <img src="./img/pipeline12.png" width="680"/> <br />
+    <img src="./img/pipeline12.png" width="650"/> <br />
     <em> 
     </em>
 </p>
@@ -147,6 +147,14 @@ You can download the affordance maps from [Baidu Pan]()
 
 
 ## :apple: Applications
+
+<p align="center">
+    <img src="./img/Potential_Applications.png" width="620"/> <br />
+    <em> 
+    </em>
+</p>
+**Potential Applications of one-shot affordance system. (a) Application I: Content Image Retrieval.** The content image retrieval model combined with affordance detection has a promising application in search engines and online shopping platforms. **(b) Application II: Learning from Demonstration.** The one-shot affordance detection model can help an agent
+to naturally select the correct object based on the expert’s actions. **(c) Application III: Self-exploration of Agents.** The one-shot affordance detection model helps an agent to autonomously perceive all instances or areas of a scene with the similar affordance property in unknown human spaces based on historical data (e.g., images of human interactions)
 
 ## :envelope: Statement
 This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
