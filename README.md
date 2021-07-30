@@ -182,9 +182,9 @@ This project is for research purpose only, please contact us for the licence of 
 
 ```
 @article{luo2021one,
-  title={One-Shot Affordance Detection},
-  author={Luo, Hongchen and Zhai, Wei and Zhang, Jing and Cao, Yang and Tao, Dacheng},
-  journal={arXiv preprint arXiv:2106.14747},
+  title={One-Shot Affordance Detection in the Wild},
+  author={Zhai, Wei and Luo, Hongchen and Zhang, Jing and Cao, Yang and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2106.14747xx},
   year={2021}
 }
 ```
