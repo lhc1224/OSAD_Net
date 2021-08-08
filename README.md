@@ -45,7 +45,7 @@ Affordance detection refers to identifying the potential action possibilities of
 ## 📖 Method <a name="3"></a> 
 ### OSAD-Net (IJCAI2021) <a name="31"></a> 
 <p align="center">
-    <img src="./img/pipeline12.png" width="650"/> <br />
+    <img src="./img/pipeline12.png" width="750"/> <br />
     <em> 
     </em>
 </p>
@@ -54,7 +54,7 @@ Affordance detection refers to identifying the potential action possibilities of
 
 ### OSAD-Net (Extended Version) <a name="32"></a> 
 <p align="center">
-    <img src="./img/pipeline2.png" width="500"/> <br />
+    <img src="./img/pipeline2.png" width="700"/> <br />
     <em> 
     </em>
 </p>
@@ -63,7 +63,7 @@ Affordance detection refers to identifying the potential action possibilities of
 
 ## 📂 Dataset <a name="4"></a> 
 <p align="center">
-    <img src="./img/dataset_example.png" width="720"/> <br />
+    <img src="./img/dataset_example.png" width="750"/> <br />
     <em> 
     </em>
 </p>
@@ -71,7 +71,7 @@ Affordance detection refers to identifying the potential action possibilities of
 **The samples images in the PADv2 of this paper.** Our PADv2 has rich annotations such as affordance masks as well as depth information. Thus it provides a solid foundation for the affordance detection task. 
 
 <p align="center">
-    <img src="./img/dataset1.png" width="720"/> <br />
+    <img src="./img/dataset1.png" width="750"/> <br />
     <em> 
     </em>
 </p>
