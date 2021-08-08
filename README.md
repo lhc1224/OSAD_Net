@@ -148,7 +148,7 @@ You can download the affordance maps from [ [Google Drive](https://drive.google.
 </p>
 
 ### Performance on PAD <a name="72"></a>
-You can download the affordance maps from [ [Google Drive](https://drive.google.com/file/d/1Qvg-QthcIiaRwB9DGwb9sPwUZ7Y1b968/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1vOSV2hhSoZWTbnjQMm7nFA)(hrlj) ]
+You can download the affordance maps from [ [Google Drive](https://drive.google.com/file/d/1Qvg-QthcIiaRwB9DGwb9sPwUZ7Y1b968/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1vOSV2hhSoZWTbnjQMm7nFA) (hrlj) ]
 <p align="center">
     <img src="./img/PADresult.png" width="750"/> <br />
     <em> 
@@ -182,7 +182,7 @@ This project is for research purpose only, please contact us for the licence of 
 
 ```
 @article{luo2021one,
-  title={One-Shot Affordance Detection in the Wild},
+  title={One-Shot Object Affordance Detection in the Wild},
   author={Zhai, Wei and Luo, Hongchen and Zhang, Jing and Cao, Yang and Tao, Dacheng},
   journal={arXiv preprint arXiv:2106.14747xx},
   year={2021}
