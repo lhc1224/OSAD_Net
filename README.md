@@ -78,6 +78,20 @@ Affordance detection refers to identifying the potential action possibilities of
 
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 103 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
 
+
+
+## 📃 Requirements <a name="5"></a> 
+  - python 3.7 
+  - pytorch 1.1.0
+  - opencv
+
+## ✏️ Usage <a name="6"></a> 
+
+```bash  
+git clone https://github.com/lhc1224/OSAD_Net.git
+cd OSAD-Net
+```
+
 ### Download PAD <a name="41"></a> 
 - You can download the PAD from [ [Google Drive](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ].
 
@@ -101,18 +115,6 @@ mkdir datasets/PADv2_part1
 mv Downloads/PADv2_part1/divide_1 datasets/PADv2_part1/  
 mv Downloads/PADv2_part1/divide_2 datasets/PADv2_part1/  
 mv Downloads/PADv2_part1/divide_3 datasets/PADv2_part1/   
-```
-
-## 📃 Requirements <a name="5"></a> 
-  - python 3.7 
-  - pytorch 1.1.0
-  - opencv
-
-## ✏️ Usage <a name="6"></a> 
-
-```bash  
-git clone https://github.com/lhc1224/OSAD_Net.git
-cd OSAD-Net
 ```
 ### Train <a name="61"></a> 
 You can download the pretrained model from [ [Google Drive](https://drive.google.com/file/d/16OYi8kAxHosfCo8E4gmFIhwemW1FaCEB/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ) (xjk5) ], then move it to the `models` folder
