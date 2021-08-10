@@ -27,7 +27,7 @@ PyTorch implementation of our one-shot affordance detection models. This reposit
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
-* One-Shot Affordance Detection (Extended Version) ([link]())
+* One-Shot Affordance Detection (Extended Version) ([link](http://arxiv.org/abs/2108.03658))
 > Authors:
 > Wei Zhai*, Hongchen Luo*, Jing Zhang, Yang Cao, Dacheng Tao
 
@@ -184,7 +184,7 @@ This project is for research purpose only, please contact us for the licence of 
 @article{luo2021one,
   title={One-Shot Object Affordance Detection in the Wild},
   author={Zhai, Wei and Luo, Hongchen and Zhang, Jing and Cao, Yang and Tao, Dacheng},
-  journal={arXiv preprint arXiv:2106.14747xx},
+  journal={arXiv preprint arXiv:2108.03658},
   year={2021}
 }
 ```
