@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/11/21
-# @Author  : Lart Pang
-# @GitHub  : https://github.com/lartpang
+
 import os
 import cv2
 from tqdm import tqdm
