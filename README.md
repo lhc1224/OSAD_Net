@@ -106,7 +106,7 @@ mv Downloads/PAD/divide_3 datasets/PAD/
 ```
 
 ### Download PADv2 <a name="42"></a> 
-- You can download the PADv2 from [ [Google Drive](https://drive.google.com/file/d/1TMWYMgO2GRM9ScEMCqEBwCPYk-UWBURD/view?usp=sharing) [Baidu Pan](https://pan.baidu.com/s/18Y8lVAOiX8gcIgdZowWIhg) (1ttj) ].
+- You can download the PADv2 from [ [Google Drive](https://drive.google.com/file/d/1TMWYMgO2GRM9ScEMCqEBwCPYk-UWBURD/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/18Y8lVAOiX8gcIgdZowWIhg) (1ttj) ].
 ```bash  
 cd Downloads/
 unzip PADv2_part1.zip
