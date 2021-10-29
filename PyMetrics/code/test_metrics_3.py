@@ -24,7 +24,7 @@ CC = CC()
 # str_2=""
 #
 # str_3=""
-# data_root = r"E:\ijcai整理\代码相关\maps\maps\Ours\divide_1\maps"
+
 data_root="/home/lhc/OSAFFDET/net_14/save_models/divide_1_1_b_2_2_k_64_sn_4/"
 mask_root = "/home/lhc/dataset/AFF_dataset/divide_1/test/gt/"
 map_files=os.listdir(data_root)
@@ -33,7 +33,7 @@ for map_file in map_files:
         continue
     pred_root=os.path.join(data_root,map_file)
     print(pred_root)
-    #pred_root = "/home/lhc/OSAFFDET/net_14/save_models/divide_3_PAD_2/epoch_31_iter_1200"
+   
     EM.adaptive_ems=[]
     EM.changeable_ems=[]
     MAE.maes=[]
