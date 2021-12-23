@@ -33,7 +33,7 @@ def main(config):
     elif config.mode == 'test':
        # model_paths=os.listdir(config.model)
 
-        test_loader, dataset = get_loader(batch_size=config.batch_size,
+        test_loader, dataset = get_loader(batch_size=1,
                                           image_size=config.test_batch_size,
                                           img_root=None,
                                           mask_root=None,
