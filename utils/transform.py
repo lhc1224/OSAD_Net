@@ -304,7 +304,7 @@ def load_pose(txt_path,img_path,flip_flag):
                 x=1.0-x
             y=float(line[1])/h
             score=float(line[2])
-            if score<0.4:
+            if score>0.4:
                 x=min(max(0,x),1)
                 y=min(max(0,y),1)
                 pose.append(x)
