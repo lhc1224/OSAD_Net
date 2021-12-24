@@ -131,7 +131,7 @@ def cv_random_crop_flip_ref(img, obj_mask,per_mask,resize_size, crop_size, rando
         per_mask=per_mask[:, :, ::-1].copy()
     obj_mask = obj_mask[0, :, :]  # H, W
     per_mask=per_mask[0,:,:]
-    return img, obj_mask,per_mask
+    return img, obj_mask,per_mask,flip_flag
 
 def cv_center_crop(img, label, edge_label,resize_size, crop_size, random_flip=True):
     def get_params(img_size, output_size):
@@ -287,7 +287,7 @@ def randomGaussianBlur(image,radius=5):
     return image
 
 
-def load_pose(txt_path,img_path):
+def load_pose(txt_path,img_path,flip_flag):
     pose=[]
 
     img = np.array(cv2.imread(img_path))
@@ -299,7 +299,7 @@ def load_pose(txt_path,img_path):
         for line in lines:
             line=line.split()
             #### 归一化
-            x=float(line[0])/w
+            x=1.0-float(line[0])/w
             y=float(line[1])/h
             score=float(line[2])
             if score<0.4:
