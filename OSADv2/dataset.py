@@ -45,19 +45,20 @@ class ImageDataTrain(data.Dataset):
         ref_image=ref_image.replace("txts","refs")
 
 
-        pose_data = load_pose(pose_path, ref_image)
-        pose_data = torch.Tensor(pose_data)
-        pose_data = pose_data.view(2, -1, 1)
+        
 
 
         json_path=ref_image.replace('jpg','json')
         obj_mask,per_mask=comput_mask(img_path=ref_image,json_path=json_path)
         ref_in = load_image(ref_image)
-        ref_in,obj_mask,per_mask=cv_random_crop_flip_ref(img=ref_in,
+        ref_in,obj_mask,per_mask,flip_flag=cv_random_crop_flip_ref(img=ref_in,
                                                          obj_mask=obj_mask,
                                                          per_mask=per_mask,
                                                          resize_size=(self.img_size,self.img_size),
                                                          crop_size=(self.img_size,self.img_size))
+        pose_data = load_pose(pose_path, ref_image,flip_flag)
+        pose_data = torch.Tensor(pose_data)
+        pose_data = pose_data.view(2, -1, 1)
 
         ref_in=Normalize(ref_in)
 
