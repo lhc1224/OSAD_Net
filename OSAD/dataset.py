@@ -51,7 +51,7 @@ class ImageDataTrain(data.Dataset):
         json_path=ref_image.replace('jpg','json')
         obj_mask,per_mask=comput_mask(img_path=ref_image,json_path=json_path)
         ref_in = load_image(ref_image)
-        ref_in,obj_mask,per_mask=cv_random_crop_flip_ref(img=ref_in,
+        ref_in,obj_mask,per_mask,_=cv_random_crop_flip_ref(img=ref_in,
                                                          obj_mask=obj_mask,
                                                          per_mask=per_mask,
                                                          resize_size=(self.img_size,self.img_size),
