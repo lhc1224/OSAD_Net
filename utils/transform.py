@@ -299,7 +299,9 @@ def load_pose(txt_path,img_path,flip_flag):
         for line in lines:
             line=line.split()
             #### 归一化
-            x=1.0-float(line[0])/w
+            x=float(line[0])/w
+            if flip_flag==1:
+                x=1.0-x
             y=float(line[1])/h
             score=float(line[2])
             if score<0.4:
