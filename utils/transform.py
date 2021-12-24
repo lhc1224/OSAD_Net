@@ -287,7 +287,7 @@ def randomGaussianBlur(image,radius=5):
     return image
 
 
-def load_pose(txt_path,img_path,flip_flag):
+def load_pose(txt_path,img_path,flip_flag=False):
     pose=[]
 
     img = np.array(cv2.imread(img_path))
