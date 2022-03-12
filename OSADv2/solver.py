@@ -235,6 +235,9 @@ class Solver(object):
                                       padding=0)
 
                     vutils.save_image(labels.data[:, 0, :, :, :], tmp_path + '/iter%d-sal-target.png' % i, padding=0)
+            if (epoch + 1) % self.config.epoch_save == 0:
+                torch.save(self.net_bone.state_dict(),
+                           save_path + 'epoch_%d_bone.pth' % (epoch + 1))
 
             if epoch in lr_decay_epoch:
                 self.lr_bone = self.lr_bone * 0.5
