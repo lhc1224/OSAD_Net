@@ -226,9 +226,7 @@ class Solver(object):
 
                     vutils.save_image(labels.data[:, 0, :, :, :], tmp_path + '/iter%d-sal-target.png' % i, padding=0)
 
-                if (i % 1000 == 0 and i > 0) and epoch > 12:
-                    torch.save(self.net_bone.state_dict(),
-                               save_path + 'epoch_%d_iter_%d_bone.pth' % (epoch + 1, i))
+       
             if (epoch + 1) % self.config.epoch_save == 0:
                 torch.save(self.net_bone.state_dict(),
                            save_path + 'epoch_%d_bone.pth' % (epoch + 1))
