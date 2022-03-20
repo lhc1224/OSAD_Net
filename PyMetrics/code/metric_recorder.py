@@ -8,8 +8,7 @@ from py_metrics import MAE, Emeasure, Fmeasure, Smeasure, WeightedFmeasure
 
 def ndarray_to_basetype(data):
     """
-    将单独的ndarray，或者tuple，list或者dict中的ndarray转化为基本数据类型，
-    即列表(.tolist())和python标量
+    
     """
 
     def _to_list_or_scalar(item):
@@ -31,7 +30,7 @@ def ndarray_to_basetype(data):
 class CalTotalMetric(object):
     def __init__(self):
         """
-        用于统计各种指标的类
+        
         https://github.com/lartpang/Py-SOD-VOS-EvalToolkit/blob/81ce89da6813fdd3e22e3f20e3a09fe1e4a1a87c/utils/recorders/metric_recorder.py
         """
         self.mae = MAE()
