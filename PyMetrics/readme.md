@@ -45,15 +45,6 @@ python code/test_metrics_3.py
     pages={733--740},
     year={2012}
 }
-
-@inproceedings{Smeasure,
-    title={Structure-measure: A new way to evaluate foreground maps},
-    author={Fan, Deng-Ping and Cheng, Ming-Ming and Liu, Yun and Li, Tao and Borji, Ali},
-    booktitle=ICCV,
-    pages={4548--4557},
-    year={2017}
-}
-
 @inproceedings{Emeasure,
     title="Enhanced-alignment Measure for Binary Foreground Map Evaluation",
     author="Deng-Ping {Fan} and Cheng {Gong} and Yang {Cao} and Bo {Ren} and Ming-Ming {Cheng} and Ali {Borji}",
@@ -61,12 +52,21 @@ python code/test_metrics_3.py
     pages="698--704",
     year={2018}
 }
-
-@inproceedings{wFmeasure,
-  title={How to evaluate foreground maps?},
-  author={Margolin, Ran and Zelnik-Manor, Lihi and Tal, Ayellet},
-  booktitle=CVPR,
-  pages={248--255},
-  year={2014}
+@article{le2007predicting,
+  title={Predicting visual fixations on video based on low-level visual features},
+  author={Le Meur, Olivier and Le Callet, Patrick and Barba, Dominique},
+  journal={Vision research},
+  volume={47},
+  number={19},
+  pages={2483--2498},
+  year={2007},
+  publisher={Elsevier}
+}
+@inproceedings{long2015fully,
+  title={Fully convolutional networks for semantic segmentation},
+  author={Long, Jonathan and Shelhamer, Evan and Darrell, Trevor},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={3431--3440},
+  year={2015}
 }
 ```
