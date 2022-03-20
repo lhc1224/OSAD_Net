@@ -20,13 +20,11 @@ EM = Emeasure()
 MAE = MAE()
 IoU = IoU()
 CC = CC()
-#str_2=""
-#
-#str_3=""
-    # data_root = r"E:\ijcai整理\代码相关\maps\maps\Ours\divide_1\maps"
-pred_root = "/home/lhc/OSAFFDET/net_14/save_models/divide_3_PAD_2/epoch_18_iter_1200"
 
-mask_root = "/home/lhc/dataset/Co-saliency/co-aff/all_data_4/divide_6/test/gt/"
+   
+pred_root = ""
+
+mask_root = ""
 
 mask_name_list = sorted(os.listdir(mask_root))
 for mask_name in tqdm(mask_name_list, total=len(mask_name_list)):
