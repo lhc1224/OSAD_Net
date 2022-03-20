@@ -24,6 +24,7 @@ python code/test_metrics_3.py
 
 * <https://github.com/DengPingFan/CODToolbox>
     - By DengPingFan(<https://github.com/DengPingFan>)
+* <https://github.com/lartpang/PySODMetrics>
 
 ## Reference
 
