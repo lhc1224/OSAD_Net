@@ -2,6 +2,7 @@
 
 - Based on `numpy` and `scipy`
 - Verification based on Fan's matlab code <https://github.com/DengPingFan/CODToolbox>
+- This code is modified and expanded based on the test code of the python version of <https://github.com/lartpang/PySODMetrics>.
 - The code structure is simple and easy to extend
 - The code is lightweight and fast
 
@@ -24,7 +25,7 @@ python code/test_metrics_3.py
 
 * <https://github.com/DengPingFan/CODToolbox>
     - By DengPingFan(<https://github.com/DengPingFan>)
-* Pytohon verion <https://github.com/lartpang/PySODMetrics>
+* Python verion <https://github.com/lartpang/PySODMetrics>
 
 ## Reference
 
