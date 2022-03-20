@@ -184,8 +184,6 @@ class ConvBNReLU(nn.Module):
 
 
 class CEM(nn.Module):
-    '''The Expectation-Maximization Attention Unit (EMAU).
-
     Arguments:
         c (int): The input and output channel number.
         k (int): The number of the bases.
@@ -357,9 +355,6 @@ class  OS_AD_model(nn.Module):
 
         return pred, mu
 
-
-
-
 class CrossEntropyLoss2d(nn.Module):
     def __init__(self, weight=None, reduction='none', ignore_index=-1):
         super(CrossEntropyLoss2d, self).__init__()
@@ -369,16 +364,6 @@ class CrossEntropyLoss2d(nn.Module):
     def forward(self, inputs, targets):
         loss = self.nll_loss(F.log_softmax(inputs, dim=1), targets)
         return loss.mean(dim=2).mean(dim=1)
-
-
-def test_net():
-    model = OS_AD_model(n_layers=50)
-    model.eval()
-    print(list(model.named_children()))
-    image = torch.randn(1, 3, 513, 513)
-    label = torch.zeros(1, 513, 513).long()
-    pred = model(image, label)
-    print(pred.size())
 
 class PLM(nn.Module):
     def __init__(self,input_channels=2048):
@@ -406,13 +391,10 @@ class PLM(nn.Module):
         F_human = F.softmax((human * feature_map).view(b * c, h * w), dim=1).view(b, c, h, w)
         F_human = F_human * feature_map
 
-
-
         obj_h=self.conv(obj*human_pro)
         S_o_att=F_obj*obj_h
 
         S_h_att = F_human*obj_h
-
 
         output=F.adaptive_max_pool2d(S_h_att+S_o_att,1)
 
@@ -428,10 +410,8 @@ class PTM(nn.Module):
         self.fc1=ConvBNReLU(channels, 512, 3, 1, 1, 1)
         self.fc2=nn.Conv2d(512,512,kernel_size=3,padding=1,stride=1)
 
-
     def forward(self, x,purpose_encode,b,n):
         x = self.fc1(x)
-
         x_c, x_h, x_w = x.size()[1:]
         purpose_encode=purpose_encode.contiguous().view(b,x_c,1,1)
         purpose_encode=purpose_encode.repeat(n,1,x_h,x_w)
@@ -440,6 +420,7 @@ class PTM(nn.Module):
         x = x + purpose_encode.view(b * n, x_c, x_h, x_w) * x
         output = self.fc2(x)
         return output
+        
 class Decoder(nn.Module):
     def __init__(self,input_channels,output_channels):
         super().__init__()
