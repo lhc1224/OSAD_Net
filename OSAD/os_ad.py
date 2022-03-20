@@ -153,7 +153,7 @@ def resnet(n_layers, stride):
         152: [3, 8, 36, 3],
     }[n_layers]
     pretrained_path = {
-        50: '/home/lhc/EMAnet_models/models/resnet50-ebb6acbb.pth',
+        50: 'models/resnet50-ebb6acbb.pth',
         101: './models/resnet101-2a57e44d.pth',
         152: './models/resnet152-0d43d698.pth',
     }[n_layers]
@@ -316,11 +316,11 @@ class  OS_AD_model(nn.Module):
         ref=self.extractor(ref)
         r_b,r_c,r_h,r_w=ref.size()
         obj_h,obj_w=obj_mask.size()[-2:]
-        obj_mask=obj_mask.view(1,1,obj_h,obj_w)
+        obj_mask=obj_mask.view(b,1,obj_h,obj_w)
         obj_mask=F.interpolate(obj_mask,size=(r_h,r_w),mode='bilinear', align_corners=True)
         obj_mask=obj_mask*ref
 
-        per_mask = per_mask.view(1, 1, obj_h, obj_w)
+        per_mask = per_mask.view(b, 1, obj_h, obj_w)
         per_mask=F.interpolate(per_mask,size=(r_h,r_w),mode='bilinear', align_corners=True)
         per_mask=per_mask*ref
         purpose_encode=self.plm(ref,obj_mask,per_mask)
