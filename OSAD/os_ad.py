@@ -247,7 +247,7 @@ class CEM(nn.Module):
         x = x.view(b, c,n, h, w)  # b * c *n* h * w
 
         x = F.relu(x, inplace=True)
-        x = x.permute(0, 2, 1, 3, 4).view(b*n,c,h,w)
+        x = x.permute(0, 2, 1, 3, 4).contiguous().view(b*n,c,h,w)
 
         # The second 1x1 conv
         x = self.conv2(x)
