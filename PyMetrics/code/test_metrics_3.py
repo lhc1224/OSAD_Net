@@ -25,8 +25,8 @@ CC = CC()
 #
 # str_3=""
 
-data_root="/home/lhc/OSAFFDET/net_14/save_models/divide_1_1_b_2_2_k_64_sn_4/"
-mask_root = "/home/lhc/dataset/AFF_dataset/divide_1/test/gt/"
+data_root=""
+mask_root = ""
 map_files=os.listdir(data_root)
 for map_file in map_files:
     if map_file[-3:]=="pth":
