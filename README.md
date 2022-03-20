@@ -85,6 +85,7 @@ The language-annotated PAD-L dataset is available for download via [link](), and
   - pytorch 1.1.0
   - opencv
   - scipy
+  - matplotlib
 
 ## ✏️ Usage <a name="6"></a> 
 
