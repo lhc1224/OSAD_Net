@@ -119,7 +119,7 @@ mv Downloads/PADv2_part1/divide_2 datasets/PADv2_part1/
 mv Downloads/PADv2_part1/divide_3 datasets/PADv2_part1/   
 ```
 
--The other part of the PADv2 dataset is available from [ [Baidu Pan](https://pan.baidu.com/s/17l_gPVBQStmwO6xLLUyG2w) (r8a3) ].
+- The other part of the PADv2 dataset is available from [ [Baidu Pan](https://pan.baidu.com/s/17l_gPVBQStmwO6xLLUyG2w) (r8a3) ].
 
 ### Train <a name="61"></a> 
 You can download the pretrained model from [ [Google Drive](https://drive.google.com/file/d/16OYi8kAxHosfCo8E4gmFIhwemW1FaCEB/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1HbsvNctWd6XLXFcbIoq1ZQ) (xjk5) ], then move it to the `models` folder
