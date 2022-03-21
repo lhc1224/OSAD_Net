@@ -16,12 +16,13 @@ PyTorch implementation of our one-shot affordance detection models. This reposit
     1. [Train](#61)
     2. [Test](#62)
     3. [Evaluation](#63)
- 8. [📊 Experimental Results](#7)
+ 7. [📊 Experimental Results](#7)
     1. [Performance on PADv2](#71)
     2. [Performance on PAD](#72)
- 10. [🍎 Potential Applications](#8)
- 11. [✉️ Statement](#9)
- 12. [🔍 Citation](#10)
+ 8. [🍎 Potential Applications](#8)
+ 9. [✉️ Statement](#9)
+ 10. [✨ Other relevant new works] (#10)
+ 11. [🔍 Citation](#11)
 
 ## 📎 Paper Link <a name="1"></a> 
 * One-Shot Affordance Detection (IJCAI2021) ([link](https://arxiv.org/abs/2106.14747))
@@ -77,8 +78,6 @@ Affordance detection refers to identifying the potential action possibilities of
 </p>
 
 **The properties of PADv2.** (a) The classification structure of the PADv2 in this paper consists of 39 affordance categories and 103 object categories. (b) The word cloud distribution of the PADv2. (c) Overlapping masks visualization of PADv2 mixed with specific affordance classes and overall category masks. (d) Confusion matrix of PADv2 affordance category and object category, where the horizontal axis corresponds to the object category and the vertical axis corresponds to the affordance category, (e) Distribution of co-occurring attributes of the PADv2, the grid is numbered for the total number of images.
-
-The language-annotated PAD-L dataset is available for download via [ [link](https://arxiv.org/abs/2202.12076) ], and related papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
 
 ## 📃 Requirements <a name="5"></a> 
   - python 3.7 
@@ -176,7 +175,15 @@ to naturally select the correct object based on the expert’s actions. **(c) Ap
 ## ✉️ Statement <a name="9"></a> 
 This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
 
-## 🔍 Citation <a name="10"></a> 
+
+## ✨ Other relevant works <a name="10"></a> 
+
+1.The language-annotated PAD-L dataset is available for download via [ [link](https://arxiv.org/abs/2202.12076) ], and related papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
+
+2.The paper "Learning Affordance Grounding from Exocentric Images" is accepted by CVPR2022 and the corresponding paper and code are available from [https://github.com/lhc1224/Cross-View-AG](https://github.com/lhc1224/Cross-View-AG).
+
+
+## 🔍 Citation <a name="11"></a> 
 
 ```
 @inproceedings{Oneluo,
