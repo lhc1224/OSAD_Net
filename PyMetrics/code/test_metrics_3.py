@@ -21,9 +21,7 @@ EM = Emeasure()
 MAE = MAE()
 IoU = IoU()
 CC = CC()
-# str_2=""
-#
-# str_3=""
+
 
 data_root=""
 mask_root = ""
