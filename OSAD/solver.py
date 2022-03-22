@@ -139,7 +139,7 @@ class Solver(object):
                 name_paths = name.split("/")
                 str_1 = ""
 
-                save_img_path = os.path.join(save_path, name_paths[0])
+                save_img_path = os.path.join(save_path, name_paths[0],name_paths[1])
 
 
                 os.makedirs(save_img_path,exist_ok=True)
