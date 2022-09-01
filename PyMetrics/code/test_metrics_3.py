@@ -37,7 +37,10 @@ for map_file in map_files:
     MAE.maes=[]
     IoU.IoUs=[]
     CC.CCs=[]
-    FM.changeable_fms=[]
+    FM.precisions = []
+    FM.recalls = []
+    FM.adaptive_fms = []
+    FM.changeable_fms = []
 
     mask_name_list = sorted(os.listdir(mask_root))
     for mask_name in tqdm(mask_name_list, total=len(mask_name_list)):
