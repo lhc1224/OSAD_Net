@@ -58,7 +58,7 @@ class ImageDataTrain(data.Dataset):
                                                          crop_size=(self.img_size,self.img_size))
         pose_data = load_pose(pose_path, ref_image,flip_flag)
         pose_data = torch.Tensor(pose_data)
-        pose_data = pose_data.view(2, -1, 1)
+        pose_data = pose_data.view(-1, 2, 1).permute(1,0,2)
 
         ref_in=Normalize(ref_in)
 
