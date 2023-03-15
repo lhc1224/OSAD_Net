@@ -178,9 +178,11 @@ This project is for research purpose only, please contact us for the licence of 
 
 ## ✨ Other Relevant Works <a name="10"></a> 
 
-1.The language-annotated PAD-L dataset is available for download via [ [link](https://arxiv.org/abs/2202.12076) ], and related papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
+1.The paper "Phrase-Based Affordance Detection via Cyclic Bilateral Interaction" was accepted by IEEE Transactions on Artificial Intelligence (T-AI). The papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
 
-2.The paper "Learning Affordance Grounding from Exocentric Images" is accepted by CVPR2022 and the corresponding paper and code are available from [https://github.com/lhc1224/Cross-View-AG](https://github.com/lhc1224/Cross-View-AG).
+2.The paper "Learning Affordance Grounding from Exocentric Images" is accepted by CVPR2022 and the corresponding paper and code are available from the [[link](https://github.com/lhc1224/Cross-View-AG)].
+
+3.The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and the corresponding code are obtained from the [[link](https://github.com/yyvhang/IAGNet)].
 
 
 ## 🔍 Citation <a name="11"></a> 
