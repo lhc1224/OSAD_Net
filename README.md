@@ -173,7 +173,7 @@ You can download the affordance maps from [ [Google Drive](https://drive.google.
 to naturally select the correct object based on the expert’s actions. **(c) Application III: Self-exploration of Agents.** The one-shot affordance detection model helps an agent to autonomously perceive all instances or areas of a scene with the similar affordance property in unknown human spaces based on historical data (e.g., images of human interactions)
 
 ## ✉️ Statement <a name="9"></a> 
-This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
+For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@ustc.edu.cn](wzhai056@ustc.edu.cn).
 
 
 ## ✨ Other Relevant Works <a name="10"></a> 
