@@ -81,13 +81,13 @@ class ImageDataTrain(data.Dataset):
         input_images = []
 
         labels = []
-        if num_image>=2:
-            if num_image==2:
+        if num_image>=5:
+            if num_image==5:
                 start=0
             else:
-                start=random.randint(0,num_image-3)
+                start=random.randint(0,num_image-6)
 
-            for idx in range(start,start+2):
+            for idx in range(start,start+5):
 
                 img_path=images[idx]
 
